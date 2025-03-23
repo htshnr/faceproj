@@ -1,0 +1,5 @@
+# Ignore node_modules in the current directory
+node_modules/
+
+# Ignore venv in the /server directory
+/server/venv/
