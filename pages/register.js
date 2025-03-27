@@ -124,11 +124,10 @@ const RegisterForm = () => {
           {/* Submit Button */}
           <button
             onClick={handleSubmit}
-            className={`w-full py-3 text-white font-semibold rounded-lg shadow-md transition-all ${
-              loading
+            className={`w-full py-3 text-white font-semibold rounded-lg shadow-md transition-all ${loading
                 ? "bg-[#c05f3c] cursor-not-allowed disabled:opacity-50"
                 : "bg-[#c05f3c] hover:bg-[#a14d34]"
-            }`}
+              }`}
             disabled={capturedImages.length < 5 || loading}
           >
             {loading ? "Please wait..." : "Submit"}
